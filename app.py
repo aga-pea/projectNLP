@@ -280,8 +280,8 @@ firebase_admin.initialize_app(cred,{
 # Flask app should start in global layout
 app = Flask(__name__)
 
-line_bot_api = LineBotApi('QiRriK22eidlQYKXbPseOKC9VEoRnR4/Jvo1GMxQMZXkzYoI+wtql1HchBjEdAcwSBrkj9RNBrixAyV9C0Rx1/6AXu/DqNwnVOaZ7b+ouBHvLZUM3NNntPFAz4V6O3gjyDElT/8FslyCkuRJVQd3wAdB04t89/1O/w1cDnyilFU=')
-handler = WebhookHandler('66102e73c1b74719168a8873e307430b')
+line_bot_api = LineBotApi('PSuSBxe1a0bZQ3X2TfaUe5oWeHNzHAyhW++coSfqx/sSZ2RFfPBXAsV0ZDvofnSbC8/vo+u7cI01uqcpGBjkXDo/rQNEiRwrWfr6GfhVnfBrF2jcuKBEKcg65i4TJ9jhPwmuXBUoX+1Ftu9LxZzDxgdB04t89/1O/w1cDnyilFU=')
+handler = WebhookHandler('1f76f3e40c0309597bf1fe9c150c902f')
 
 @app.route('/call', methods=['GET'])
 
