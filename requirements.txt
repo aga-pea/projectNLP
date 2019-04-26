@@ -1,0 +1,8 @@
+Flask==0.10.1
+requests
+firebase_admin
+line-bot-sdk
+googletrans
+nltk
+pandas
+numpy
